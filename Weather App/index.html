@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App -  JS Project 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Or Country Name" id="input">
+            <button class="search-button"><img src="./Assets/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Error! Re-enter city name</p>
+
+        </div>
+        <div class="weather">
+            <img src="" class="Weather-icon" alt="Error loading Img">
+            <h1 class="temp">22°C</h1>
+            <h1 class="city">Newyork</h1>
+            <div class="details">
+                <div class="col">
+                <img  src="./Assets/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./Assets/wind.png" alt="">
+                    <div>
+                        <p class="Wind">15Kmph</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
